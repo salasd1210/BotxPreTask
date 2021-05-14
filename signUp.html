@@ -1,0 +1,72 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>BotX | User Registration</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/3d6055a11a.js" crossorigin="anonymous"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style-responsive.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <section class="title-section">
+        <!-- Nav Bar -->
+        <img class="navbar-brand logoImage" src="images/logo.png" alt="logo">
+
+        <div class="logoName">
+            <h2>REGISTRATION</h2>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </div>
+    </section>
+
+	  <div id="login-page">
+	  	<div class="container">
+			<hr>
+
+		  <form class="form-login" method="post">
+		  <h2 class="form-login-heading">User Registration</h2>
+
+		        <div class="login-wrap">
+		         <input type="text" class="form-control" placeholder="Full Name" name="fullname" required="required" autofocus>
+		            <br>
+		            <input type="email" class="form-control" placeholder="Email ID" id="email" onBlur="userAvailability()" name="email" required="required">
+		             <span id="user-availability-status1" style="font-size:12px;"></span>
+		            <br>
+		            <input type="password" class="form-control" placeholder="Password" required="required" name="password"><br >
+		             <input type="text" class="form-control" maxlength="10" name="contactno" placeholder="Contact no" required="required">
+		            <br>
+
+		            <button class="signBtn btn btn-block" type="submit" name="submit" id="submit"><i class="fa fa-user"></i> Register</button>
+		            <hr>
+
+		            <div class="registration">
+		                Already Registered<br/>
+		                <a class="" href="login.html">
+		                   Sign in
+		                </a>
+		            </div>
+
+		        </div>
+		      </form>
+	  	</div>
+	  </div>
+
+  </body>
+</html>

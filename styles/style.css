@@ -1,0 +1,115 @@
+
+/* Common Styles */
+
+body {
+    color: #797979;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+label {
+	font-weight: 400;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #797979;
+}
+
+/* Title Section */
+
+.logoImage {
+  width: 15%;
+  display: inline-block;
+}
+
+.logoName {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  color: #000;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #a9a9a9;
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+/* Login Form */
+
+.form-login {
+	max-width: 330px;
+	margin: 100px auto 0;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.form-login-heading {
+	margin: 15px;
+	padding: 25px 20px;
+	text-align: center;
+	background: #ED9121;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.login-wrap {
+	padding: 20px;
+}
+
+.registration {
+	text-align: center;
+}
+
+.signBtn {
+  background-color: #ED9121;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.signBtn:hover {
+  opacity: 0.8;
+}
+
+/* Bootstrap Modifications */
+
+.modal-header {
+	background: #ED9121;
+}
+
+.modal-title {
+	color: #fff;
+}
+
+.close:focus {
+  outline: none;
+}
+
+/* Media Queries */
+@media screen and (min-width:1000px) {
+  .media-data {
+    top:2rem;
+  }
+}

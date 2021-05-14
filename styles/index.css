@@ -1,0 +1,168 @@
+/* Common Styles */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #ED9121;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Navbar Section */
+
+.logoImage {
+  width: 15%;
+}
+
+.navbar {
+  padding-bottom: 0;
+}
+
+.nav-item {
+  margin-left: 90px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #a9a9a9;
+}
+
+/* Title Section */
+
+.title-section {
+  padding-bottom: 3%;
+  text-align: initial;
+}
+
+.col-lg-3 {
+  margin: 5% 0 0 5%;
+}
+
+.getStrt {
+  background-color: #ED9121;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.getStrt:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.titleImage {
+  margin-left: 15%;
+  height: 90%;
+}
+
+/* Students Section */
+
+.orange-section {
+  background-color: #ED9121;
+  padding-top: 5%;
+  color: #fff;
+
+}
+
+.grade-column {
+    padding: 5% 2% 7%;
+}
+
+.card {
+  border-radius: 7%;
+  width: 70%;
+  margin: auto;
+  color: orange;
+  vertical-align: middle;
+  box-shadow: 0 0px 6px #a9a9a9;
+}
+
+.card-head {
+  font-size: 1rem;
+  padding: 3rem 1.25rem 1rem;
+}
+
+.card hr {
+  border-color: orange;
+  border-width: 3px;
+}
+
+/* .col-md-12 .card {
+  width: 35%;
+  margin: auto;
+} */
+
+.gradeTxt {
+  font-size: 5rem;
+  margin: 0;
+}
+
+/* Educators Section */
+
+.white-section {
+  color: orange;
+  padding-top: 5%;
+}
+
+.white-section p {
+  color: #000;
+}
+
+.edu-column {
+  padding: 2% 2% 5%;
+  color: orange;
+}
+
+.edu-card {
+  width: 60%;
+  vertical-align: middle;
+  box-shadow: 0 0px 6px #a9a9a9;
+}
+
+.edu-card h6 {
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+}
+
+.edu-head {
+  padding: 1.5rem 1.5rem;
+  margin-bottom: 0;
+}
+
+.edu-body {
+  padding-bottom: 20%;
+}
+
+/* Footer Section */
+
+.footer {
+  font-size: 1.2rem;
+  padding: 2%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .flex {
+    position: relative;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imgDiv {
+    display: flex;
+    justify-content: center;
+  }
+}

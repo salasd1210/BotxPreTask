@@ -1,0 +1,105 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>BotX | User Login</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/3d6055a11a.js" crossorigin="anonymous"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style-responsive.css" rel="stylesheet">
+
+    <!-- Java Script Statements -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Title Section -->
+    <section class="title-section">
+        <!-- Nav Bar -->
+        <img class="navbar-brand logoImage" src="images/logo.png" alt="logo">
+
+        <div class="logoName">
+            <h2>LOGIN</h2>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-link" style="position:absolute; " href="index.html">HOME</a>
+        </div>
+    </section>
+
+    <!-- Login Form -->
+
+    <div id="login-page">
+	  	<div class="container">
+	        <hr>
+		      <form class="form-login" name="login" method="post">
+		        <h2 class="form-login-heading">sign in</h2>
+
+  		        <div class="login-wrap">
+  		            <input type="text" class="form-control" name="username" placeholder="User ID"  required autofocus>
+  		            <br>
+  		            <input type="password" class="form-control" name="password" required placeholder="Password">
+  		            <label class="checkbox">
+  		                <span class="pull-right">
+  		                    <a data-toggle="modal" href="#myModal"> Forgot Password?</a>
+  		                </span>
+  		            </label>
+  		            <button class="signBtn btn btn-block" name="submit" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
+  		            <hr>
+  		           </form>
+  		            <div class="registration">
+  		                Don't have an account yet?<br/>
+  		                <a class="" href="signUp.html">
+  		                    Create an account
+  		                </a>
+  		            </div>
+
+  		        </div>
+
+		          <!-- Modal -->
+		           <form class="form-login" name="forgot" method="post">
+		               <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+		                   <div class="modal-dialog">
+		                       <div class="modal-content">
+		                           <div class="modal-header">
+                                 <h4 class="modal-title">Forgot Password ?</h4>
+		                               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                           </div>
+
+      		                     <div class="modal-body">
+      		                         <p>Enter your details below to reset your password.</p>
+                                  <input type="email" name="email" placeholder="Email" autocomplete="off" class="form-control" required><br >
+                                  <input type="text" name="contact" placeholder="Contact No" autocomplete="off" class="form-control" required><br>
+                                  <input type="password" class="form-control" placeholder="New Password" id="password" name="password"  required ><br />
+                                  <input type="password" class="form-control unicase-form-control text-input" placeholder="Confirm Password" id="confirmpassword" name="confirmpassword" required >
+      		                     </div>
+
+    		                       <div class="modal-footer">
+    		                           <button data-dismiss="modal" class="btn btn-default" type="button">Cancel</button>
+    		                           <button class="btn btn-theme" type="submit" name="change" onclick="">Submit</button>
+    		                       </div>
+
+		                       </div>
+		                  </div>
+		              </div>
+		          </form>
+	  	    </div>
+	  </div>
+
+  </body>
+</html>
