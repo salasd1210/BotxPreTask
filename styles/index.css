@@ -163,6 +163,7 @@ p {
 @media screen and (max-width: 768px) {
   .imgDiv {
     display: flex;
+    top: 0.5rem;
     justify-content: center;
   }
 }
